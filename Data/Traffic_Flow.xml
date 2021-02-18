@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20080829</pubdate>
+                <title>Traffic Flow</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Traffic flow counts for arterial streets in the City of Spokane WA</abstract>
+            <purpose>Traffic counts for arterial streets</purpose>
+            <supplinf>Meets or exceeds National Mapping Accuracy Standards (NMAS) for 1:1200 scale data.  Reflects current ground condition.</supplinf>
+        </descript>
+        <status>
+            <progress>In work</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-117.565504</westbc>
+                <eastbc>-117.307298</eastbc>
+                <northbc>47.760418</northbc>
+                <southbc>47.583668</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>traffic</themekey>
+                <themekey>transportation</themekey>
+            </theme>
+        </keywords>
+        <accconst>The City of Spokane provides this information to the general public and has not customized the information for any specific purpose. The information contained was generated from GIS data maintained by different sources and agencies. Some limitations may apply based upon restrictions imposed by other sources or agencies supplying data to the City. Areas depicted by these digital products are approximate, and are not necessarily accurate to mapping, surveying, or engineering standards. These digital products are for illustration purposes only, are not suitable for site-specific decision making, are subject to constant changes, and may not be complete, accurate or current. Any specific coordinates may be in error by several hundred feet or more. A digital layer may have registration errors and not overlay with other data layers correctly. 
+
+The City provides this information with the understanding that it is not guaranteed to be accurate, correct or complete. Conclusions drawn from this information are the responsibility of the user. Every effort has been made to ensure the accuracy, correctness and timeliness of the materials presented. However, the City assumes no responsibility in the event that any information is incorrect. The City of Spokane assumes no liability for damages incurred directly or indirectly as a result of incomplete, incorrect or omitted information, even if the City is advised of the possibility that the information may not be accurate. The user of this information assumes all liability for their dependence on this information and assumes responsibility for the information.</accconst>
+        <useconst>THIS IS NOT A LEGAL DOCUMENT: This information is compiled from various sources and is subject to constant revision. This data should not be used to determine the location of facilities in relationship to property lines, section lines, streets, etc.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Chris Cafaro</cntper>
+                </cntperp>
+                <cntpos>GIS Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>1433 N Normandie</address>
+                    <city>Spokane</city>
+                    <state>WA</state>
+                    <postal>99201</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(509)625-7752</cntvoice>
+                <cntfax>(509)625-7732</cntfax>
+                <cntemail>CCafaro@SpokaneCity.org</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>City of Spokane GIS</datacred>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <srcinfo>
+                <typesrc>None</typesrc>
+                <srccontr>City of Spokane reference base map layers</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Extracted from City of Spokane reference base map layers (i.e. street centerlines, street edges, building footprints, parcel lines, hydrography, 6” ortho-photography, etc.).</procdesc>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>804</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>TrafficFlow</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                                  
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LastUpdate</attrlabl>
+                <attrdef>Last time updated in GIS</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Location</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                                  
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ADT2009</attrlabl>
+                <attrdef>2009 average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADT2010</attrlabl>
+                <attrdef>2010 average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADT2011</attrlabl>
+                <attrdef>2011 average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LastYear</attrlabl>
+                <attrdef>Last year counted</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>LastADT</attrlabl>
+                <attrdef>Last average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADT2012</attrlabl>
+                <attrdef>2012 average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADT2013</attrlabl>
+                <attrdef>2013 average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADT2014</attrlabl>
+                <attrdef>2014 average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADT2015</attrlabl>
+                <attrdef>2015 average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>StreetName</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>FromSt</attrlabl>
+                <attrdef>From Street</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ToSt</attrlabl>
+                <attrdef>To Street</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADT2016</attrlabl>
+                <attrdef>2016 average daily traffic count</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                                  
+                    
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                                
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20210216</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Spokane</cntorg>
+                    <cntper>Chris Cafaro</cntper>
+                </cntorgp>
+                <cntpos>GIS Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>1433 N Normandie</address>
+                    <city>Spokane</city>
+                    <state>WA</state>
+                    <postal>99201</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(509)625-7752</cntvoice>
+                <cntfax>(509)625-7732</cntfax>
+                <cntemail>CCafaro@SpokaneCity.org</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
