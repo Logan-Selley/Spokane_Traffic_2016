@@ -5,6 +5,7 @@
 ---
 
 >This map examines the city of Spokane and it's available traffic flow data for the year 2016. Zoom levels 13 - 16 are available for each tileset.
+https://logan-selley.github.io/Spokane_Traffic_2016/
 
 ## Screenshots
 
