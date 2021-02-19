@@ -24,12 +24,12 @@ window.onload = function() {
         detectRetina: true
     }).addTo(map);
 
-    var traffic = L.tileLayer('Spokane_Traffic_2016/Data/Thematic/TrafficFlow/{z}/{x}/{y}.png', {
+    var traffic = L.tileLayer('Data/Thematic/TrafficFlow/{z}/{x}/{y}.png', {
         attribution: 'Data: City of Spokane Open GIS Data',
         detectRetina: true
     });
 
-    var grouped = L.tileLayer('Data/MapTheme/MapTheme/{z}/{x}/{y}.png', {
+    var grouped = L.tileLayer('Data/LayerGroup/LayerGroup/{z}/{x}/{y}.png', {
         attribution: 'Data: City of Spokane Open GIS Data | Modified Basemap: Created by Logan Selley Using MapBox',
         detectRetina: true
     });
