@@ -19,17 +19,17 @@ window.onload = function() {
         attribution: 'Basemap: ArcGIS |'
     });
 
-    var basemap = L.tileLayer('/Data/Basemap/Basemap/{z}/{x}/{y}.png', {
+    var basemap = L.tileLayer('Data/Basemap/Basemap/{z}/{x}/{y}.png', {
         attribution: 'Modified Basemap: Created by Logan Selley using MapBox',
         detectRetina: true
     }).addTo(map);
 
-    var traffic = L.tileLayer('/Data/Thematic/TrafficFlow/{z}/{x}/{y}.png', {
+    var traffic = L.tileLayer('Data/Thematic/TrafficFlow/{z}/{x}/{y}.png', {
         attribution: 'Data: City of Spokane Open GIS Data',
         detectRetina: true
     });
 
-    var grouped = L.tileLayer('/Data/LayerGroup/LayerGroup/{z}/{x}/{y}.png', {
+    var grouped = L.tileLayer('Data/LayerGroup/LayerGroup/{z}/{x}/{y}.png', {
         attribution: 'Data: City of Spokane Open GIS Data | Modified Basemap: Created by Logan Selley Using MapBox',
         detectRetina: true
     });
